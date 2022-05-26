@@ -5,7 +5,7 @@ function* counter(): Generator<number, string, boolean> {
       break;
     }
   }
-  return "aaaaaaaaaaaaaaaaaadone!";
+  return "aaaaaaaaaaaaaaaaaaaaaadone!";
 }
 var iter = counter();
 var curr = iter.next();
