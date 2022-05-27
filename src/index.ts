@@ -5,7 +5,7 @@ function* counter(): Generator<number, string, boolean> {
       break;
     }
   }
-  return "aaaaaahhauuuuuiiiiiiiiiuuuuuuuaaaaaaaaaaaaaaadone!";
+  return "aaaaaahhauuuuuiiiiiddddddiiiiuuuuuuuaaaaaaaaaaaaaaadone!";
 }
 const gene = counter();
 console.log(gene.next());

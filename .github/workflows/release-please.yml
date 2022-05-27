@@ -4,39 +4,39 @@ on:
       - master 
 name: release-please
 jobs:
-  # bump-version:
-  #   if: "!startsWith(github.event.head_commit.message, 'bump:')"
-  #   runs-on: ubuntu-latest
-  #   name: "Bump version and create changelog with commitizen"
-  #   steps:
-  #     - name: Check out
-  #       uses: actions/checkout@v2
-  #       with:
-  #         token: "${{ secrets.GITHUB_TOKEN }}"
-  #         fetch-depth: 0
-  #     - name: Create bump and changelog
-  #       uses: commitizen-tools/commitizen-action@master
-  #       with:
-  #         github_token: ${{ secrets.GITHUB_TOKEN }}
-  release-please:
+  bump-version:
+    if: "!startsWith(github.event.head_commit.message, 'bump:')"
     runs-on: ubuntu-latest
+    name: "Bump version and create changelog with commitizen"
     steps:
-      - uses: google-github-actions/release-please-action@v3
+      - name: Check out
+        uses: actions/checkout@v2
         with:
-          release-type: node
-          package-name: release-please-action
-      - uses: actions/checkout@v2
-      - name: tag major and minor versions
-        if: ${{ steps.release.outputs.release_created }}
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git remote add gh-token "https://${{ secrets.GITHUB_TOKEN }}@github.com/google-github-actions/release-please-action.git"
-          git tag -d v${{ steps.release.outputs.major }} || true
-          git tag -d v${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }} || true
-          git push origin :v${{ steps.release.outputs.major }} || true
-          git push origin :v${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }} || true
-          git tag -a v${{ steps.release.outputs.major }} -m "Release v${{ steps.release.outputs.major }}"
-          git tag -a v${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }} -m "Release v${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}"
-          git push origin v${{ steps.release.outputs.major }}
-          git push origin v${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}
+          token: "${{ secrets.GITHUB_TOKEN }}"
+          fetch-depth: 0
+      - name: Create bump and changelog
+        uses: commitizen-tools/commitizen-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+  # release-please:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: google-github-actions/release-please-action@v3
+  #       with:
+  #         release-type: node
+  #         package-name: release-please-action
+  #     - uses: actions/checkout@v2
+  #     - name: tag major and minor versions
+  #       if: ${{ steps.release.outputs.release_created }}
+  #       run: |
+  #         git config user.name github-actions[bot]
+  #         git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+  #         git remote add gh-token "https://${{ secrets.GITHUB_TOKEN }}@github.com/google-github-actions/release-please-action.git"
+  #         git tag -d v${{ steps.release.outputs.major }} || true
+  #         git tag -d v${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }} || true
+  #         git push origin :v${{ steps.release.outputs.major }} || true
+  #         git push origin :v${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }} || true
+  #         git tag -a v${{ steps.release.outputs.major }} -m "Release v${{ steps.release.outputs.major }}"
+  #         git tag -a v${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }} -m "Release v${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}"
+  #         git push origin v${{ steps.release.outputs.major }}
+  #         git push origin v${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}
