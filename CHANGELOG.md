@@ -2,6 +2,14 @@
 
 
 
+## [1.3.0](https://github.com/betterPT/release-please-test2/compare/v1.2.0...v1.3.0) (2022-05-27)
+
+
+### Features
+
+* BC-12344 Add new rthing to the thing ([3ceddc6](https://github.com/betterPT/release-please-test2/commit/3ceddc6b19edba911c87a38d7c1316487b144c6d))
+* BC-12345 Add new hing ([e7ed8a2](https://github.com/betterPT/release-please-test2/commit/e7ed8a274c868187c6f57abd8b30d65bd746906a))
+
 ## [1.2.0](https://github.com/betterPT/release-please-test2/compare/v1.1.0...v1.2.0) (2022-05-27)
 
 
