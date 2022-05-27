@@ -1,5 +1,5 @@
 function* counter(): Generator<number, string, boolean> {
-  let i = 0;
+  let i = 16;
   while (true) {
     if (yield i++) {
       break;
