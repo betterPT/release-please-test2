@@ -2,6 +2,12 @@
 
 
 
+## 2.0.0 (2022-05-27)
+
+### Feat
+
+- BC-1212 A,so
+
 ## [2.0.0](https://github.com/betterPT/release-please-test2/compare/v1.3.0...v2.0.0) (2022-05-27)
 
 
