@@ -9,7 +9,10 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/@digitalroute/cz-conventional-changelog-for-jira"
     }
+  },
+  "dependencies": {
+    "@digitalroute/cz-conventional-changelog-for-jira": "^7.3.0"
   }
 }

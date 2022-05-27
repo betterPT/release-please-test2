@@ -8,6 +8,7 @@ function* counter(): Generator<number, string, boolean> {
   return "aaaaaahhauuuuuuuuuuuuaaaaaaaaaaaaaaadone!";
 }
 const gen = counter();
+const result = gen.next();
 gen.next();
 var iter = counter();
 var curr = iter.next();
