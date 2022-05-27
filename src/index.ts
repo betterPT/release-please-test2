@@ -5,7 +5,7 @@ function* counter(): Generator<number, string, boolean> {
       break;
     }
   }
-  return "aaaaaahhauuuuuuuuuuuuaaaaaaaaaaaaaaadone!";
+  return "aaaaaahhauuuuuiiiiiiiiiuuuuuuuaaaaaaaaaaaaaaadone!";
 }
 const gen = counter();
 const result = gen.next();
