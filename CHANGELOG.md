@@ -2,6 +2,17 @@
 
 
 
+## [2.0.0](https://github.com/betterPT/release-please-test2/compare/v1.3.0...v2.0.0) (2022-05-27)
+
+
+### ⚠ BREAKING CHANGES
+
+* All the things break
+
+### Features
+
+* BC-23233 Add new feature ([97b671b](https://github.com/betterPT/release-please-test2/commit/97b671b42523fabe930efb0bbbd0641331872c9f))
+
 ## [1.3.0](https://github.com/betterPT/release-please-test2/compare/v1.2.0...v1.3.0) (2022-05-27)
 
 
