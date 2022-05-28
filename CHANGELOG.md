@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.0](https://github.com/betterPT/release-please-test2/compare/v2.0.0...v2.3.0) (2022-05-28)
+
+
+### Features
+
+* BC-1212 A,so ([5358a45](https://github.com/betterPT/release-please-test2/commit/5358a45eaa7f24ab77f312528b9ef4589fe3919c))
+* BC-1244 Ok cool ([d8e0b58](https://github.com/betterPT/release-please-test2/commit/d8e0b58dddc72cfe44009c86071c90df5a29efdf))
+* BC-23444 Alsok ok ([6d6520d](https://github.com/betterPT/release-please-test2/commit/6d6520dc8c046f678afa0367ee1a4a4ba6215f5f))
+* BC-234444 Also iojf ijef ([dc34df7](https://github.com/betterPT/release-please-test2/commit/dc34df7a44ededa3bce65283763c41d727168d95))
+* ok tes ([e3f51b9](https://github.com/betterPT/release-please-test2/commit/e3f51b968cad2ddfb57d541bdcc9410d69e88a90))
+* **ok:** ok ([2800063](https://github.com/betterPT/release-please-test2/commit/28000632dc5071fea3617bed817222c55ec92e38))
+* **ok:** wdssdd ([ba76e4c](https://github.com/betterPT/release-please-test2/commit/ba76e4ccfec5526bce0664f8ced26ba8c5a69b84))
+
 ## [1.2.0](https://github.com/betterPT/release-please-test2/compare/v2.0.0...v1.2.0) (2022-05-28)
 
 
