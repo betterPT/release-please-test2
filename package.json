@@ -1,11 +1,12 @@
 {
   "name": "rel-please",
-  "version": "2.3.0",
+  "version": "2.2.0",
   "main": "index.js",
   "author": "Damian Esteban",
   "license": "MIT",
   "scripts": {
-    "release": "standard-version"
+    "release": "standard-version",
+    "commit": "git-cz"
   },
   "devDependencies": {
     "cz-conventional-changelog": "3.3.0",
@@ -13,7 +14,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/@digitalroute/cz-conventional-changelog-for-jira"
+      "path": "node_modules/cz-git"
     }
   },
   "dependencies": {
