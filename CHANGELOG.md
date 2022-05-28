@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.0](https://github.com/betterPT/release-please-test2/compare/v2.3.0...v2.4.0) (2022-05-28)
+
+
+### Features
+
+* dwdd ([3b8d333](https://github.com/betterPT/release-please-test2/commit/3b8d33320f2197255c82cbeb5a9c1cf15c9cec92))
+* **ok:** tes ok ([ee903cc](https://github.com/betterPT/release-please-test2/commit/ee903cc82a97464bc67b24c298607a9d147862e6))
+* **uh:** oku gvdffgcfgc ([2d799d2](https://github.com/betterPT/release-please-test2/commit/2d799d23b7f33bae2ad11cc43cfe8549f0832a02))
+
 ## [2.3.0](https://github.com/betterPT/release-please-test2/compare/v2.0.0...v2.3.0) (2022-05-28)
 
 
