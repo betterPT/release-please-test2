@@ -2,6 +2,16 @@
 
 
 
+## [2.1.0](https://github.com/betterpt/release-please-test2/compare/v2.0.0...v2.1.0) (2022-05-28)
+
+
+### Features
+
+* BC-1212 A,so ([5358a45](https://github.com/betterpt/release-please-test2/commit/5358a45eaa7f24ab77f312528b9ef4589fe3919c))
+* BC-1244 Ok cool ([d8e0b58](https://github.com/betterpt/release-please-test2/commit/d8e0b58dddc72cfe44009c86071c90df5a29efdf))
+* BC-23444 Alsok ok ([6d6520d](https://github.com/betterpt/release-please-test2/commit/6d6520dc8c046f678afa0367ee1a4a4ba6215f5f))
+* BC-234444 Also iojf ijef ([dc34df7](https://github.com/betterpt/release-please-test2/commit/dc34df7a44ededa3bce65283763c41d727168d95))
+
 ## 2.2.0 (2022-05-27)
 
 ### Feat
