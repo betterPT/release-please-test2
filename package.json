@@ -13,7 +13,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "node_modules/cz-git"
+      "path": "./node_modules/@digitalroute/cz-conventional-changelog-for-jira"
     }
   },
   "dependencies": {
