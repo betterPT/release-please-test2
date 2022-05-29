@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 2.3.0 (2022-05-29)
+
+### Feat
+
+- BC-12333 Ok cool
+
 ## [2.4.0](https://github.com/betterPT/release-please-test2/compare/v2.3.0...v2.4.0) (2022-05-28)
 
 
